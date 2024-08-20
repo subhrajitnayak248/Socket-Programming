@@ -1,0 +1,29 @@
+A socket consists of several key components that together define its identity and functionality. Here are the main elements:
+
+    IP Address: The unique identifier of the host machine on the network.
+
+    Port Number: A 16-bit number that identifies a specific process or service on the host.
+
+    Protocol: The communication protocol used by the socket (typically TCP or UDP).
+
+These three elements combine to form what's often called the "socket address" or "socket 
+In addition, a socket also includes:
+
+    File Descriptor: A unique identifier assigned by the operating system to represent the socket.
+
+    Send and Receive Buffers: Memory areas for outgoing and incoming data.
+
+    State Information: Details about the socket's current status (e.g., connected, listening, closed).
+
+    Socket Options: Various configuration settings that control the socket's behavior.
+
+    Endpoint: The combination of IP address and port number, representing one end of the communication channel.
+
+When a connection is established between two sockets, you have:
+
+Local Endpoint: The socket's own IP address and port.
+Remote Endpoint: The IP address and port of the socket it's communicating with.
+
+Together, these components allow the socket to establish and maintain network communications.
+
+
